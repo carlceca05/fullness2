@@ -1,3 +1,9 @@
+.dos{
+    background-image:  url(../img/grupo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
 .aaa{
     width: 35%;
 }
