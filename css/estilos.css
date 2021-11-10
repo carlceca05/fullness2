@@ -18,7 +18,7 @@
 }
 
 .dos{
-    background-image:  url(../img/grupo.webp);
+    background-image:radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.94) 60%),   url(../img/grupo.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;
@@ -61,7 +61,7 @@
     background-image: radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.94) 60%);
 }
 .fondo5{
-    background-image: url(../img/contacto.webp);
+    background-image: url(../img/contacto.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,7 +167,7 @@
 .amarillo{
     height: 7px;
     width: 5%;
-    background-color: #edf000;
+    background-color: #f2d644;
     left: 47%;
     position: relative;
 }
