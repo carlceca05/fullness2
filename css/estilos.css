@@ -1,3 +1,12 @@
+.aaa{
+    width: 35%;
+}
+.fuera2{
+    position: absolute;
+    bottom: -15px;
+    left: 30%;
+    z-index: 50;
+}
 .fondo1{
     background-image: radial-gradient(circle at right,rgba(0,0,0,0.12) 0%,rgba(9,16,25,0.93) 60%), url(../img/examenesdeconfianza-1.webp);
     background-position: center;
@@ -278,6 +287,9 @@ input[type="radio"] {
     }
     .cartita2{
         width: 20rem;
+    }
+    .aaa{
+        width: 70%;
     }
 }
 @media only screen and (min-width:901px) and (max-width:3000px){
