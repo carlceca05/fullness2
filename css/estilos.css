@@ -1,3 +1,22 @@
+.efeito{
+    color:white;
+}
+.efeito:hover{
+    color: #f2d644;
+}
+
+
+.comunicacion{
+    background-image:  radial-gradient(circle at left,rgba(0, 0, 0, 0.2) 0%,rgba(0, 0, 0, 0.2) 100%),  url(../img/fullness-comunicacion.webp);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.altito{
+    height: 30vh;
+}
+
 .dos{
     background-image:  url(../img/grupo.webp);
     background-position: center;
