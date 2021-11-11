@@ -2,8 +2,11 @@
     position:absolute;
     top: 0px;
     left: 10px;
-    font-size: 3em;
-    color: rgba(255,255,255,0.8);
+    font-size: 2em;
+    font-weight: 600;
+    color: rgba(255,255,255,0.4);
+    /*color: rgba(149,147,150,0.8);*/
+    /*color: rgba(242,214,68,0.8);*/
     opacity: 1;
     z-index: -2;
     /*text-align: center;*/
