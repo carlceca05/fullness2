@@ -1,11 +1,15 @@
+.cosamarilla{
+    background-image: radial-gradient(circle at left,rgba(242, 214, 68, 0.8) 0%,rgba(199, 171, 27, 0.8) 60%), url(../img/dots2.png);
+
+}
 .textofantasma{
     position:absolute;
     top: 0px;
     left: 10px;
     font-size: 2em;
-    font-weight: 600;
-    color: rgba(255,255,255,0.4);
-    /*color: rgba(149,147,150,0.8);*/
+    font-weight: 700;
+    color: rgba(255,255,255,0.6);
+    /*color: rgba(149,147,150,0.5);*/
     /*color: rgba(242,214,68,0.8);*/
     opacity: 1;
     z-index: -2;
