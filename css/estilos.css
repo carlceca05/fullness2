@@ -1,8 +1,15 @@
+.pafooter{
+    background-image: radial-gradient(circle at left,rgba(242, 214, 68, 0.8) 0%,rgba(199, 171, 27, 0.8) 60%), url(../img/dots2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+
+}
 .trans{
     background-color: rgba(0,0,0,0.4);
 }
 .cosamarilla{
-    background-image: radial-gradient(circle at left,rgba(242, 214, 68, 0.8) 0%,rgba(199, 171, 27, 0.8) 60%), url(../img/dots2.png);
+    background-image: radial-gradient(circle at left,rgba(242, 214, 68, 0.8) 0%,rgba(199, 171, 27, 0.7) 80%), url(../img/dots2.png);
 
 }
 .textofantasma{
