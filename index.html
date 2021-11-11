@@ -50,6 +50,16 @@
         .efeito:hover{
             color: #f2d644;
         }
+        @media only screen and (min-width:901px) and (max-width:3000px){
+            .aparece{
+                display: none;
+            }
+        }
+        @media only screen and (min-width:300px) and (max-width:900px){
+            .desaparace{
+                display: none;
+            }
+        }
 
     </style>
 
@@ -166,6 +176,7 @@
     </section>
     <!--  mision y vision -->
     <div class="container rounded movido sombra cosamarilla" > 
+
         <p class=" textofantasma text-uppercase  m-0  "    >Liderazgo</p>
         <div class="row row-cols-1 row-cols-lg-2 p-5 ">
             <div class="col-12 col-lg-11 pt-0 pt-lg-3 ">
@@ -183,11 +194,16 @@
     
     <!-- CONTROL DE CONFIANZA  -->
     <section class="container-fluid py-5 px-0 mx-auto ">
+        <p class="lateral m-0 aparece">PROGRAMA</p>
         <div class="container  pb-5 px-0" style="position: relative;">    
+            
             <h2 class="text-center   text-uppercase gordita" >    Liderazgo Consciente  </h2>
+            <p class="lateral m-0 desaparece">PROGRAMA</p>
+            <!--
             <div class="textofantasma2 ">
                 <p class="  m-0">PROGRAMA</p>
             </div>
+            -->
             <div class="amarillo mb-5"></div>
             <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 d-flex justify-content-center">
                 <div class="col mb-5 d-flex justify-content-center">
@@ -312,10 +328,10 @@
 
     <!--sesccion fullness-->
     <section class="container-fluid mt-5 py-5 dos" >
+        <p class="lateral2 m-0 aparece" >FULLNESS</p>
         <div class="container " style="position: relative;">
-            <div class="textofantasma3 ">
-                <p class="  m-0"> ¿QUIÉNES SOMOS?</p>
-            </div>
+            
+            <p class="lateral2 m-0 desaparece">FULLNESS</p>
             <h2 class="text-center text-white  text-uppercase gordita ">¿Quiénes somos?  </h2>
             
             <div class="amarillo mb-3"></div>
@@ -330,13 +346,13 @@
         </div>
     </section>
     <!--cotizacion-->
-    <section class="container-fluid pt-5 pafooter">
+    <section class="container-fluid pt-5" style="background-color: #f0f0f0;">
     <div class="container  pt-5 ">
-        <h2 class="mb-4 text-center text-uppercase gordita fs-1 " style="color: #f2ece8;">Solicite una cotización</h2>
+        <h2 class="mb-4 text-center text-uppercase gordita fs-1 text-success">Solicite una cotización</h2>
         <p class="text-center "> <a class="btn mb-5  btn-outline-dark text-uppercase fw-bold" href="contacto.html">Ir a contacto</a></p>
-        <hr class="my-4"> 
+        <hr class="my-4 bg-secondary"> 
         <div class="row">
-            <h5 class="text-center text-white mb-4 text-uppercase">nuestro equipo</h5>
+            <h5 class="text-center text-success mb-4 text-uppercase">nuestro equipo</h5>
             <div class="col" >
                 <div  id="carousel4" class="carousel slide hero-slides d-flex justify-content-center " data-ride="carousel">
                     <ol class="carousel-indicators ">
@@ -389,17 +405,18 @@
             
         </div>
         
-        <hr class="my-4">
+
+        <hr class="my-4 bg-secondary" style="height: 1px ; border:none;">
         <small>
         <div class="row row-cols-lg-4 row-cols-sm-1 text-center text-lg-start">
             <div class=" cols-xs-12 cols-sm-12 cols-md-4 cols-lg-4 mb-2">
-                <h6  >NOSOTROS</h6>
-                <p class="fw-light roboto text-white">    Nuestro objetivo es brindarte las herramientas  para que tu empresa pueda crecer con fortaleza y plenitud.</p>
+                <h6 class="text-success" >NOSOTROS</h6>
+                <p class="fw-light roboto text-secondary">    Nuestro objetivo es brindarte las herramientas  para que tu empresa pueda crecer con fortaleza y plenitud.</p>
             </div>
             
             
             <div class=" cols-xs-12 cols-sm-12 cols-md-4 cols-lg-4 mb-2">
-                <h6 class="text-uppercase">Programas</h6>
+                <h6 class="text-uppercase text-success">Programas</h6>
                 <p class="m-0"><a class="text-decoration-none fw-light   roboto efeito2" href=""> <i class="bi bi-arrow-right-short "></i> Liderazgo Consciente  </a></p>
                 <p class="m-0"><a class="text-decoration-none  fw-light roboto efeito" href="">   </a></p>
                 <p class="m-0"><a class="text-decoration-none efeito2 fw-light roboto" href="">  </a></p>
@@ -407,13 +424,13 @@
             </div>
 
             <div class=" cols-xs-12 cols-sm-12 cols-md-4 cols-lg-4 mb-2">
-                <h6 class="text-uppercase"> Cursos</h6>
+                <h6 class="text-uppercase text-success"> Cursos</h6>
                 <p class="m-0"> <a class="text-decoration-none efeito2 fw-light roboto" href="">  <i class="bi bi-arrow-right-short"></i> Comunicación Efectiva  </a></p>
                 <p class="m-0"> <a class="text-decoration-none efeito2 fw-light roboto" href="">  <i class="bi bi-arrow-right-short"></i> Liderazgo Consciente </a></p>
                 <p class="m-0"> <a class="text-decoration-none efeito2 fw-light roboto" href="">  <i class="bi bi-arrow-right-short"></i> Trabajo en Equipo  </a></p>
             </div>
             <div class=" cols-xs-12 cols-sm-12 cols-md-4 cols-lg-4 mb-2">
-                <h6 class="text-uppercase">Contacto</h6>
+                <h6 class="text-uppercase text-success">Contacto</h6>
                 <p class="text-white fw-light roboto m-0"> <a class="text-decoration-none efeito2" href=""> <i class="bi bi-whatsapp "></i> &nbsp;  55 5818 1083 </a></p>
                 <p class="text-white fw-light roboto m-0"><a class="text-decoration-none efeito2" href="">  <i class="bi bi-facebook "></i>&nbsp; /fullness</a>  </p>
                 <p class="text-white fw-light roboto m-0"> <a class="text-decoration-none efeito2" href=""> <i class="bi bi-instagram "></i>&nbsp;  /fullness  </a></p>
@@ -429,7 +446,7 @@
             <div class="col">
             </div>
             <div class="cols-lg-4 cols-md-12 text-center text-lg-end">
-                <p>@CECAES 2021</p>
+                <p class="text-secondary">@CECAES 2021</p>
             </div>
         </div>
         </small>

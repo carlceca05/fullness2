@@ -1,11 +1,21 @@
 .lateral{
     position: absolute;
-  
+    right: 0;
     font-weight: 700;
     font-size: 3em;
     color: rgba(180,180,180,.5);
     /*writing-mode: sideways-lr;*/
     writing-mode: vertical-lr;
+    line-height: 0.7em;
+}
+.lateral2{
+    position: absolute;
+    right: -25px;
+    font-weight: 700;
+    font-size: 3em;
+    color: rgba(180,180,180,.5);
+    /*writing-mode: sideways-lr;*/
+    writing-mode: sideways-lr;
     line-height: 0.7em;
 }
 .pafooter{
@@ -68,7 +78,7 @@
     color: #f2d644;
 }
 .efeito2{
-    color:white;
+    color:#828282;
 }
 .efeito:hover{
     color: #091019;
