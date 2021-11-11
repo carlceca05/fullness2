@@ -39,13 +39,27 @@
 }
 .textofantasma2{
     position:absolute;
-    top: 0;
-    left: 25%;
+    top: -35px;
+    width: 100%;
     font-size: 6em;
     font-weight: 700;
     line-height: 1em;
     color: rgba(0,0,0, 0.05);
     z-index: -2;
+    text-align: center;
+    
+}
+.textofantasma3{
+    position:absolute;
+    top: 0;
+    width: 100%;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 0.5em;
+    color: rgba(254,254,254, 0.3);
+    z-index:0 ;
+    text-align: center;
+    
 }
 .efeito{
     color:white;
@@ -393,7 +407,12 @@ input[type="radio"] {
         font-size: 4em;
         line-height: 1em;
     }
-}
+    .textofantasma2{
+        font-size: 4em;
+    }
+    .textofantasma3{
+        font-size: 2em;
+    }
 @media only screen and (min-width:901px) and (max-width:3000px){
     .choncha{
         font-size: 4.5em; 
