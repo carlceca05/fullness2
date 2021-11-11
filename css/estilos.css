@@ -1,6 +1,6 @@
 .lateral{
     position: absolute;
-    
+  
     font-weight: 700;
     font-size: 3em;
     color: rgba(180,180,180,.5);
@@ -36,6 +36,16 @@
     z-index: -2;
     /*text-align: center;*/
     line-height: 1em;
+}
+.textofantasma2{
+    position:absolute;
+    top: 0;
+    left: 25%;
+    font-size: 6em;
+    font-weight: 700;
+    line-height: 1em;
+    color: rgba(0,0,0, 0.05);
+    z-index: -2;
 }
 .efeito{
     color:white;
