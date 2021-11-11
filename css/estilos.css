@@ -1,3 +1,6 @@
+.trans{
+    background-color: rgba(0,0,0,0.4);
+}
 .cosamarilla{
     background-image: radial-gradient(circle at left,rgba(242, 214, 68, 0.8) 0%,rgba(199, 171, 27, 0.8) 60%), url(../img/dots2.png);
 
@@ -24,11 +27,24 @@
 
 
 .comunicacion{
-    background-image:  radial-gradient(circle at left,rgba(0, 0, 0, 0.2) 0%,rgba(0, 0, 0, 0.2) 100%),  url(../img/fullness-comunicacion.webp);
+    background-image:   url(../img/fullness-comunicacion.webp);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
+.liderazgo{
+    background-image:  url(../img/liderazgo.webp);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trabajo{
+    background-image:   url(../img/grupo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .altito{
     height: 30vh;
