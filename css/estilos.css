@@ -1,8 +1,8 @@
 .lateral{
     position: absolute;
-    right: 0;
+    top: 60px;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 5em;
     color: rgba(180,180,180,.5);
     /*writing-mode: sideways-lr;*/
     writing-mode: vertical-lr;
@@ -21,11 +21,11 @@
 }
 .lateral2-1{
     position: absolute;
-    top: 20%;
+    top: 15%;
     right: 0;
     font-weight: 700;
     font-size: 4em;
-    color: rgba(242,214,68,.5);
+    color: rgba(242,214,68,.7);
     /*writing-mode: sideways-lr;*/
     writing-mode: sideways-lr;
     line-height: 0.7em;
@@ -92,10 +92,10 @@
     color: #f2d644;
 }
 .efeito2{
-    color:#828282;
+    color:white;
 }
 .efeito:hover{
-    color: #091019;
+    color: #f2d644;
 }
 
 
