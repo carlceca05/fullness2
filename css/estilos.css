@@ -22,14 +22,15 @@
 .lateral2-1{
     position: absolute;
     top: 15%;
-    right: 0;
+    right: 0px;
     font-weight: 700;
     font-size: 4em;
     color: rgba(254,254,254,.6);
     /*writing-mode: sideways-lr;*/
     writing-mode: vertical-lr;
-    line-height: 0.7em;
+    line-height: 1.22em;
     z-index: 3;
+    
     transform: rotate(180deg);
 }
 .cosamarilla2{
@@ -426,9 +427,9 @@ input[type="radio"] {
     }
 
     .textofantasma{
-        top: 15px;
-        left: 20px;
-        font-size: 4em;
+        top: 10px;
+        left: 10px;
+        font-size: 3.3em;
         line-height: 1em;
     }
     .textofantasma2{
