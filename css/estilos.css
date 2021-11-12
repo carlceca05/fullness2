@@ -37,14 +37,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
-
 }
 .trans{
     background-color: rgba(0,0,0,0.4);
 }
 .cosamarilla{
     background-image: radial-gradient(circle at left,rgba(242, 214, 68, 0.8) 0%,rgba(199, 171, 27, 0.7) 80%), url(../img/dots2.png);
-
 }
 .textofantasma{
     position:absolute;
@@ -396,14 +394,15 @@ input[type="radio"] {
         font-size: 2.3em; 
         font-weight: 900;
     }
+
     .desaparece{
         display: none;
     }
     .amarillo{
         width: 20%;
         left: 40%;
-        
     }
+
     .depoligrafo{
         width: 20%;
         left: 40%;
@@ -425,6 +424,7 @@ input[type="radio"] {
     .aaa{
         width: 70%;
     }
+
     .textofantasma{
         top: 15px;
         left: 20px;
@@ -437,6 +437,7 @@ input[type="radio"] {
     .textofantasma3{
         font-size: 2em;
     }
+}
 @media only screen and (min-width:901px) and (max-width:3000px){
     .choncha{
         font-size: 4.5em; 
@@ -446,4 +447,3 @@ input[type="radio"] {
         display: none;
     }
 }
-
