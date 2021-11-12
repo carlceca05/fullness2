@@ -25,13 +25,13 @@
     right: 0;
     font-weight: 700;
     font-size: 4em;
-    color: rgba(242,214,68,.7);
+    color: rgba(254,254,254,.6);
     /*writing-mode: sideways-lr;*/
-    writing-mode: sideways-lr;
+    writing-mode: vertical-lr;
     line-height: 0.7em;
     z-index: 3;
-
-}-
+    transform: rotate(180deg);
+}
 .pafooter{
     background-image: radial-gradient(circle at left,rgba(242, 214, 68, 0.8) 0%,rgba(199, 171, 27, 0.8) 60%), url(../img/cosamarilla.png);
     background-position: center;
