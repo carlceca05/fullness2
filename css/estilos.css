@@ -10,14 +10,25 @@
 }
 .lateral2{
     position: absolute;
-    right: -25px;
+    top: 68px;
+    right: -33px;
     font-weight: 700;
     font-size: 3em;
-    color: rgba(180,180,180,.5);
+    color: rgba(242,214,68,.5);
     /*writing-mode: sideways-lr;*/
     writing-mode: sideways-lr;
     line-height: 0.7em;
 }
+.lateral2-1{
+    position: absolute;
+    right: 0;
+    font-weight: 700;
+    font-size: 3em;
+    color: rgba(242,214,68,.5);
+    /*writing-mode: sideways-lr;*/
+    writing-mode: sideways-lr;
+    line-height: 0.7em;
+}-
 .pafooter{
     background-image: radial-gradient(circle at left,rgba(242, 214, 68, 0.8) 0%,rgba(199, 171, 27, 0.8) 60%), url(../img/cosamarilla.png);
     background-position: center;
