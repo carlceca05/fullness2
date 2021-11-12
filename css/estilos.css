@@ -11,23 +11,26 @@
 .lateral2{
     position: absolute;
     top: 68px;
-    right: -33px;
+    right: -47px;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 4em;
     color: rgba(242,214,68,.5);
     /*writing-mode: sideways-lr;*/
     writing-mode: sideways-lr;
-    line-height: 0.7em;
+    line-height: 0.8em;
 }
 .lateral2-1{
     position: absolute;
+    top: 20%;
     right: 0;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 4em;
     color: rgba(242,214,68,.5);
     /*writing-mode: sideways-lr;*/
     writing-mode: sideways-lr;
     line-height: 0.7em;
+    z-index: 3;
+
 }-
 .pafooter{
     background-image: radial-gradient(circle at left,rgba(242, 214, 68, 0.8) 0%,rgba(199, 171, 27, 0.8) 60%), url(../img/cosamarilla.png);
