@@ -8,8 +8,6 @@
     right: 0px;
     opacity: 0.5;
     /*transform: rotate(-90deg);*/
-
-
 }
 .lateral{
     position: absolute;
@@ -20,6 +18,7 @@
     /*writing-mode: sideways-lr;*/
     writing-mode: vertical-lr;
     line-height: 0.7em;
+    z-index: -5;
 }
 .lateral2{
     position: absolute;
@@ -436,7 +435,7 @@ input[type="radio"] {
         width: 20rem;
     }
     .aaa{
-        width: 70%;
+        width: 95%;
     }
 
     .textofantasma{
@@ -450,6 +449,9 @@ input[type="radio"] {
     }
     .textofantasma3{
         font-size: 2em;
+    }
+    .rotado{
+        width: 45px;
     }
 }
 @media only screen and (min-width:901px) and (max-width:3000px){
